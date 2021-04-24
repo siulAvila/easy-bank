@@ -25,7 +25,7 @@ a:hover {
   text-decoration: none;
 }
 
-//f lexbox
+//flexbox
 .flex {
   display: flex;
 
@@ -43,14 +43,13 @@ a:hover {
 }
 
 // button
-
 button,
 .button {
-  padding: 0.875rem 2.1875rem;
+  padding: rem(14) rem(35);
   background: linear-gradient(to right, $limeGreen, $brightCyan);
   border: 0;
   color: $white;
-  border-radius: 50px;
+  border-radius: rem(800);
   cursor: pointer;
   font-weight: 700;
   font-size: $font-sm;
