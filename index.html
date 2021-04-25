@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -22,13 +21,13 @@
   </head>
   <body>
     <header class="header">
-      <div class="overlay hide-for-desktop"></div>
-      <nav class="flex flex-jc-sb flex-ai-c">
+      <div class="overlay has-fade hide-for-desktop"></div>
+      <nav class="container flex flex-jc-sb flex-ai-c">
         <a href="/" class="header__logo">
           <img src="./assets/images/logo.svg" alt="Easybank" />
         </a>
 
-        <a id="hamburguer" href="#" class="header__menu hide-for-desktop">
+        <a id="hamburguer" href="#" class="header__toggle hide-for-desktop">
           <span></span>
           <span></span>
           <span></span>
@@ -43,6 +42,13 @@
           Request Invite
         </button>
       </nav>
+
+      <div
+        class="header__menu has-fade hide-for-desktop flex flex-column flex-ai-c"
+      >
+        <a href="#">Home</a><a href="#">About</a><a href="#">Contact</a
+        ><a href="#">Blog</a><a href="#">Careers</a>
+      </div>
     </header>
 
     Next generation digital banking Take your financial life online. Your
